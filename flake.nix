@@ -21,8 +21,8 @@
             '';
 
             installPhase = ''
-              mkdir $out
-              mv bb $out/
+              mkdir -p $out/bin
+              mv bb $out/bin/bb
             '';
 
             meta = with lib; {
