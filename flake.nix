@@ -16,15 +16,6 @@
               sha256 = "sha256-8POym1JtOY8nRBEfr7AdLoRkza2Dpnxe72+w9rCF448=";
             };
 
-            #nativeBuildInputs = [
-            #  autoPatchelfHook
-            #  stdenv.cc.cc.lib
-            #  gmp
-            #  ncurses
-            #  openssl
-            #  zlib
-            #];
-
             unpackPhase = ''
               tar xvf $src
             '';
